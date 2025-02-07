@@ -266,6 +266,9 @@ body {
         align-items: center;
        
     }
+    .product-img img {
+    width: 200px;
+}
 
     .local ul li {
         text-align: center;

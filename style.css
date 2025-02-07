@@ -232,7 +232,7 @@ body {
     .header img {
         margin-top: 12px;
         margin-left: 15px;
-        width: 320px;
+        width: 300px;
     }
     .header-content {
         /* margin-left: 240px; */
@@ -247,7 +247,7 @@ body {
     
     .swiper {
         top: 100px;
-        width: 408px;
+        width: 380px;
         padding: 150px 0 50px 0;
     }
     .btn-wsp {

@@ -1,0 +1,273 @@
+html, 
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0b0909e4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header-content {
+    /* margin-left: 240px; */
+    text-align: center;
+    font-size: 50px;
+    color: #ff0000;
+    padding: 20px 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.local h1 {
+    font-size: 45px;
+    color: #ff0000;
+}
+
+.local h1:hover{
+    color: #fff;
+}
+
+.local i {
+    font-size: 48px;
+    color: #b8acac;
+}
+
+.local i:hover {
+    color: #f60000;
+}
+
+.local ul li {
+    font-size: 35px;
+    color: #fff;
+
+}
+
+.local ul li:hover{
+    color: #f60000;
+}
+
+.header img {
+    margin-top: 12px;
+    margin-left: 15px;
+    width: 680px;
+}
+
+.swiper {
+    top: 100px;
+    width: 100%;
+    padding: 150px 0 50px 0;
+}
+
+.swiper-slide {
+    margin-top: 100px;
+    max-width: 470px;
+    margin: 0 auto;
+    width: 900px;
+    height: 930px;
+    background-color: #191818e7;
+    box-shadow:  0 0 20px rgb(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icons i {
+    font-size: 25px;
+    color: #ff0000;
+}
+
+.icons img {
+    width: 220px;
+}
+
+.swiper h2 {
+    margin: 0 auto;
+    font-size: 40px;
+    color: #fffdfd;
+}
+
+
+
+.product-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-txt  {
+    flex-basis: 50%;
+}
+
+.product-txt span{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.product-txt h3 {
+    font-size: 20px;
+    color: #ff0000;
+    text-transform: uppercase;
+}
+
+
+.product-txt p {
+    text-align: justify;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.product-img {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+
+.product-img img {
+    width: 220px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 35px;
+    border: 2px solid #ff0000;
+    border-radius: 25px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.btn-1:hover {
+    background-color: #ff0000;
+}
+
+.btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #0df053;
+    color: #ffffff;
+    border-radius: 60px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+.btn-wsp:hover {
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+}
+
+.btn-fcb {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 180px;
+    right: 40px;
+    background-color: #3b5998;
+    color: #ffffff;
+    border-radius: 60px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+.btn-fcb:hover {
+    text-decoration: none;
+    color: #3b5998;
+    background: #fff;
+}
+
+.btn-ins {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 110px;
+    right: 40px;
+    background: radial-gradient(circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf);
+    color: #ffffff;
+    border-radius: 60px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+.btn-ins:hover {
+    text-decoration: none;
+    color:  #f15245;  
+    background: #fff;
+}
+
+@media(max-width: 991px) {
+    .header img {
+        margin-top: 12px;
+        margin-left: 15px;
+        width: 400px;
+    }
+    .header-content {
+        /* margin-left: 240px; */
+        text-align: center;
+        font-size: 40px;
+        color: #ff0000;
+        padding: 20px 10;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .swiper {
+        top: 100px;
+        width: 420px;
+        padding: 150px 0 50px 0;
+    }
+    .btn-wsp {
+        right: 60px;
+    }
+    .btn-fcb{
+        right: 60px;
+    }
+    .btn-ins {
+        right: 60px;
+    }
+
+    .local h1 {
+        text-align: center;
+        justify-content:space-around;
+        font-size: 50px;
+        align-items: center;
+       
+    }
+
+    .local ul li {
+        text-align: center;
+    }
+}

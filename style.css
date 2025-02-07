@@ -77,8 +77,8 @@ body {
     margin: 0 auto;
     width: 900px;
     height: 930px;
-    background-color: #191818e7;
-    box-shadow:  0 0 20px rgb(0, 0, 0, 0.4);
+    background-color: #332c2ce7;
+    box-shadow:  0 0 20px rgba(29, 28, 28, 0.4);
     padding: 40px;
     text-align: center;
     border-radius: 15px;
@@ -232,7 +232,7 @@ body {
     .header img {
         margin-top: 12px;
         margin-left: 15px;
-        width: 320px;
+        width: 370px;
     }
     .header-content {
         /* margin-left: 240px; */
@@ -244,9 +244,10 @@ body {
         align-items: center;
         justify-content: space-between;
     }
+    
     .swiper {
         top: 100px;
-        width: 380px;
+        width: 408px;
         padding: 150px 0 50px 0;
     }
     .btn-wsp {
@@ -266,8 +267,58 @@ body {
         align-items: center;
        
     }
+    .swiper h2 {
+        margin: 0 auto;
+        font-size: 30px;
+        color: #fffdfd;
+    }
+    
+    
+    
+    .product-content {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .product-txt  {
+        flex-basis: 50%;
+    }
+    
+    .product-txt span{
+        font-size: 35px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    
+    .product-txt h3 {
+        font-size: 20px;
+        color: #ff0000;
+        text-transform: uppercase;
+    }
+    
+    
+    .product-txt p {
+        text-align: center;
+        font-size: 15px;
+        color: #ffffff;
+    }
+    
+    .product-img {
+        flex-basis: 30%;
+        text-align: right;
+    }
+    
+    
     .product-img img {
-        width: 170px;
+        width: 200px;
+    }
+    .icons i {
+        font-size: 30px;
+        color: #ff0000;
+    }
+    
+    .icons img {
+        width: 220px;
     }
 
     .local ul li {
